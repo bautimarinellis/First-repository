@@ -12,6 +12,7 @@ int main(){
     printf("Opciones:\n");
     printf("1.Opcion 1.\n");
     printf("2.Opcion 2.\n");
+    printf("3.Opcion 3.\n");
     scanf("%d", &op);
 
     if (op == 1)
@@ -22,6 +23,10 @@ int main(){
     {
         printf("Has ingresado a la opcion 2.\n");
     }
+    if (op == 3)
+    {
+    	printf("Has ingresado a la opcion 3.\n");
+	}
     system("pause");
     return 0;
     
